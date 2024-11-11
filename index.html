@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css style/all.min.css">
+    <link rel="stylesheet" href="./css style/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css style/style.css">
+    <title>Smart Login System</title>
+</head>
+
+<body>
+    <main class=" container ">
+        <div class="row justify-content-center min-vh-100 align-items-center">
+            <div class=" col-md-8 col-12 p-4 text-center position-relative">
+                            <!-- Sign In Box -->
+                <div class=" box boxSingin d-block">
+                    <h1 class="">Smart Login System</h1>
+                    <input id="signinEmail" class="form-control my-3" placeholder="Enter your email" type="email">
+                    <input id="signinPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+                    <p id="incorrect" class="text-danger d-none "></p>
+                    <button class="btn btnForLogIn btn-outline-info w-100 my-3">Login</button>
+                    <p class="text-white">Don’t have an account?<a class="text-white">Sign Up</a></p>
+                </div>
+                <!-- Sign Up Box -->
+                <div class="box boxOfLogin d-none">
+                    <h1 class="">Smart Login System</h1>
+                    <input id="inputUserName" class="form-control my-3" placeholder="Enter your name" type="text"
+                        fdprocessedid="rcxzi9">
+                    <input id="inputUserEmail" class="form-control my-3" placeholder="Enter your email" type="email"
+                      name="email">
+                    <input id="inputUserPassword" class="form-control my-3" placeholder="Enter your password"
+                        type="password">
+                    <button class="btn signInToBag btn-outline-info w-100 my-3" >Sign in</button>
+                    <p class="messageforUser d-none"></p>
+                    <p class="text-white">you have an account?<a class="text-white">Signin</a></p>
+               
+                </div>
+    
+                <!-- for weclom hom just say wecolm + the user name -->
+                <div class=" boxWelcom d-flex flex-column d-none">
+                    <nav class="navbar nav-bar navbar-expand-lg navbar-dark group fixed-top">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">SMART LOGIN</a>                     
+                            <div class="" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class=" p-2 nav-link btn btn-outline-warning border-warning border">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="test text-white box">
+    
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

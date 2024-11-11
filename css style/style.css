@@ -1,0 +1,36 @@
+body {
+    background-color: #24353F;
+    overflow: auto;
+}
+
+main div h1 {
+    color: #17A2B8;
+}
+
+.box {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 1.85rem;
+border-radius:5px ;
+}
+
+input {
+    background-color: transparent !important;
+    color: #fff
+     !important;
+}
+input::placeholder {
+    color: #B6B6B6 !important;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0 transparent;
+}
+.nav-bar {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    justify-content: space-between;
+}
+a{
+    cursor: pointer;
+}
